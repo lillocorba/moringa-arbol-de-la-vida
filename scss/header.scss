@@ -7,6 +7,7 @@ header nav {
     justify-content: space-between;
     padding: 20px 30px 20px 30px;
     position: relative;
+    margin-bottom: -10vh;
 }
 
 .contenedor__menu ul {
@@ -33,6 +34,7 @@ header nav {
     width: 25px;
     margin-bottom: 5px;
     border-radius: 100px;
+    transition: all 0.3s ease-in-out;
 }
 
 .line1 {
