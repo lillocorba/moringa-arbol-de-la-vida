@@ -293,7 +293,7 @@ header nav {
   width: 50px; }
 
 .consumo__capsulas h4, .consumo__aceite h4, .consumo__hojas h4, .consumo__polvo h4 {
-  font-size: 16px;
+  font-size: 18px;
   margin-top: 5px; }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -341,7 +341,7 @@ header nav {
   margin-top: -40px; }
 
 .superalimento__vitaminas {
-  color: #D4EFDF; }
+  color: #52BE80; }
 
 .desarrollo {
   display: flex;
