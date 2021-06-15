@@ -1,0 +1,110 @@
+@import "variables.scss";
+
+.beneficios {
+    padding: 50px 20px 50px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.beneficios__titulo h2 {
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+.beneficios__cards__leftArrow {
+    width: 35px;
+    margin-right: 5px;
+}
+
+.beneficios__cards__rightArrow {
+    width: 35px;
+    margin-left: 5px;
+}
+
+.beneficios__arrows {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.beneficios__cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transform: translate(900px);
+}
+
+.beneficios__cards__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    margin-right: 50px;
+}
+
+.beneficios__cards__card__titulo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    width: 100%;
+    border-radius: 30px 30px 0px 0px;
+    border: solid 1px $verde-oscuro;
+}
+
+.beneficios__cards__card__parrafo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    background-color: $verde-claro;
+    border-radius: 0px 0px 30px 30px;
+    color: white;
+    font-size: 16px;
+    padding: 20px;
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .beneficios {
+        padding: 100px 20px 100px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .beneficios__titulo h2 {
+        color: black;
+        font-weight: bold;
+        font-size: 32px;
+        margin-bottom: 50px;
+    }
+
+    .beneficios__cards__leftArrow {
+        width: 40px;
+        margin-right: 5px;
+    }
+    
+    .beneficios__cards__rightArrow {
+        width: 40px;
+        margin-left: 5px;
+    }
+
+    .beneficios__cards__card__titulo h3 {
+        font-size: 20px;
+    }
+
+}

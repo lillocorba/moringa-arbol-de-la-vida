@@ -1,0 +1,74 @@
+@import "variables.scss";
+
+.consumo {
+    background-color: $verde-oscuro;
+    background-image: url("../imagenes/img-bg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 20px 100px 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+.consumo__titulo h2 {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.consumo__capsulas, .consumo__aceite, .consumo__hojas, .consumo__polvo {
+    margin-top: 50px;
+}
+
+.consumo__capsulas img, .consumo__aceite img, .consumo__hojas img, .consumo__polvo img {
+    width: 50px;
+}
+
+.consumo__capsulas h4, .consumo__aceite h4, .consumo__hojas h4, .consumo__polvo h4 {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .consumo__titulo h2 {
+        font-weight: bold;
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+
+    .consumo__contenedor {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: center;
+        margin-top: 0px;
+    }
+
+    .consumo__capsulas img, .consumo__aceite img, .consumo__hojas img, .consumo__polvo img {
+        width: 75px;
+        margin-bottom: 20px;
+    }
+
+    .consumo__capsulas h4, .consumo__aceite h4, .consumo__hojas h4, .consumo__polvo h4 {
+        font-size: 20px;
+        margin-top: 5px;
+    }
+
+    .consumo__capsulas, .consumo__aceite, .consumo__hojas, .consumo__polvo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .consumo__capsulas, .consumo__aceite, .consumo__hojas {
+        margin-right: 50px;
+    }
+    
+}

@@ -1,0 +1,369 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
+* {
+  box-sizing: border-box; }
+
+html, body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  position: relative; }
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 85vh; }
+
+.hero__contenedor {
+  margin-top: -50px; }
+
+.hero__contenedor__logo {
+  width: 60px;
+  height: auto;
+  margin-bottom: -30px; }
+
+.hero__contenedor__titulo {
+  font-size: 36px; }
+
+.hero__contenedor__subtitulo {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: -30px; }
+
+.hero__contenedor__btn {
+  background-color: #52BE80;
+  padding: 10px 30px;
+  border-radius: 100px;
+  color: white;
+  text-decoration: none;
+  font-size: 16px; }
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 90vh; }
+  .hero__contenedor__logo {
+    width: 80px; }
+  .hero__contenedor__titulo {
+    font-size: 62px;
+    margin-top: 40px; }
+  .hero__contenedor__subtitulo {
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: -40px;
+    margin-bottom: 30px; }
+  .hero__contenedor__btn {
+    background-color: #52BE80;
+    padding: 12px 35px;
+    border-radius: 100px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px; } }
+
+header nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 30px 20px 30px;
+  position: relative; }
+
+.contenedor__menu ul {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  transform: translate(100%); }
+
+.contenedor__burger {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(-40px, 55px); }
+
+.line {
+  background-color: black;
+  height: 3px;
+  width: 25px;
+  margin-bottom: 5px;
+  border-radius: 100px; }
+
+.line1 {
+  height: 3px;
+  width: 15px; }
+
+.line2 {
+  height: 3px;
+  width: 20px; }
+
+.contenedor__logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; }
+
+.contenedor__logo__logo {
+  transform: translate(0px, 12px);
+  width: 30px;
+  height: auto; }
+
+.contenedor__logo__nombre {
+  font-weight: bold;
+  transform: translate(10px, 10px); }
+
+.about {
+  background-color: #52BE80;
+  background-image: url("../imagenes/img-bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100px 20px 0px 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden; }
+
+.about__h2 {
+  font-weight: bold;
+  font-size: 24px; }
+
+.about__p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 2;
+  margin-bottom: 40px; }
+
+.about__btn {
+  background-color: white;
+  padding: 10px 30px;
+  border-radius: 100px;
+  color: #52BE80;
+  text-decoration: none;
+  font-size: 16px; }
+
+.about__img {
+  z-index: -1;
+  margin-top: 30px;
+  margin-bottom: -200px; }
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .about__h2 {
+    font-weight: bold;
+    font-size: 32px; }
+  .about__p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 2;
+    margin: 0px 70px 40px 70px; }
+  .about__btn {
+    background-color: white;
+    padding: 12px 35px;
+    border-radius: 100px;
+    color: #52BE80;
+    text-decoration: none;
+    font-size: 18px; }
+  .about__img {
+    z-index: -1;
+    margin-top: 30px;
+    margin-bottom: -300px;
+    width: 85vw; } }
+
+.beneficios {
+  padding: 50px 20px 50px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center; }
+
+.beneficios__titulo h2 {
+  color: black;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 50px; }
+
+.beneficios__cards__leftArrow {
+  width: 35px;
+  margin-right: 5px; }
+
+.beneficios__cards__rightArrow {
+  width: 35px;
+  margin-left: 5px; }
+
+.beneficios__arrows {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 30px; }
+
+.beneficios__cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  transform: translate(900px); }
+
+.beneficios__cards__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  border-radius: 30px;
+  margin-right: 50px; }
+
+.beneficios__cards__card__titulo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 50%;
+  width: 100%;
+  border-radius: 30px 30px 0px 0px;
+  border: solid 1px #52BE80; }
+
+.beneficios__cards__card__parrafo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  background-color: #7DCEA0;
+  border-radius: 0px 0px 30px 30px;
+  color: white;
+  font-size: 16px;
+  padding: 20px; }
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .beneficios {
+    padding: 100px 20px 100px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; }
+  .beneficios__titulo h2 {
+    color: black;
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 50px; }
+  .beneficios__cards__leftArrow {
+    width: 40px;
+    margin-right: 5px; }
+  .beneficios__cards__rightArrow {
+    width: 40px;
+    margin-left: 5px; }
+  .beneficios__cards__card__titulo h3 {
+    font-size: 20px; } }
+
+.consumo {
+  background-color: #52BE80;
+  background-image: url("../imagenes/img-bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100px 20px 100px 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden; }
+
+.consumo__titulo h2 {
+  font-weight: bold;
+  font-size: 24px; }
+
+.consumo__capsulas, .consumo__aceite, .consumo__hojas, .consumo__polvo {
+  margin-top: 50px; }
+
+.consumo__capsulas img, .consumo__aceite img, .consumo__hojas img, .consumo__polvo img {
+  width: 50px; }
+
+.consumo__capsulas h4, .consumo__aceite h4, .consumo__hojas h4, .consumo__polvo h4 {
+  font-size: 16px;
+  margin-top: 5px; }
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .consumo__titulo h2 {
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 30px; }
+  .consumo__contenedor {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: 0px; }
+  .consumo__capsulas img, .consumo__aceite img, .consumo__hojas img, .consumo__polvo img {
+    width: 75px;
+    margin-bottom: 20px; }
+  .consumo__capsulas h4, .consumo__aceite h4, .consumo__hojas h4, .consumo__polvo h4 {
+    font-size: 20px;
+    margin-top: 5px; }
+  .consumo__capsulas, .consumo__aceite, .consumo__hojas, .consumo__polvo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .consumo__capsulas, .consumo__aceite, .consumo__hojas {
+    margin-right: 50px; } }
+
+.superalimento {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 50px 25px 50px 25px; }
+
+.superalimento__frase--moringa {
+  -webkit-text-stroke: 1px #52BE80;
+  color: transparent;
+  font-size: 28px;
+  margin-bottom: 0px; }
+
+.superalimento__frase--igual, .superalimento__frase--superalimento {
+  font-size: 28px;
+  color: #52BE80;
+  margin-top: -40px; }
+
+.superalimento__vitaminas {
+  color: #D4EFDF; }
+
+.desarrollo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #52BE80;
+  padding: 30px 20px;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: 300; }
+
+.desarrollo h4 a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold; }
+
+.foto__final {
+  background-image: url(../imagenes/Ingrediente-Moringa.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px; }

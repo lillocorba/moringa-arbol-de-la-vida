@@ -1,0 +1,27 @@
+@import "variables.scss";
+
+.superalimento {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px 25px 50px 25px;
+}
+
+.superalimento__frase--moringa {
+    -webkit-text-stroke: 1px $verde-oscuro;
+    color: transparent;
+    font-size: 28px;
+    margin-bottom: 0px;
+}
+
+.superalimento__frase--igual, .superalimento__frase--superalimento {
+    font-size: 28px;
+    color: $verde-oscuro;
+    margin-top: -40px;
+}
+
+.superalimento__vitaminas {
+    color: $verde-mas-claro;
+}

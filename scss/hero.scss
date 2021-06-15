@@ -1,0 +1,75 @@
+@import "variables.scss";
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 85vh;
+}
+
+.hero__contenedor {
+    margin-top: -50px;
+}
+
+.hero__contenedor__logo {
+    width: 60px;
+    height: auto;
+    margin-bottom: -30px;
+}
+
+.hero__contenedor__titulo {
+    font-size: 36px;
+}
+
+.hero__contenedor__subtitulo {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: -30px;
+}
+
+.hero__contenedor__btn {
+    background-color: $verde-oscuro;
+    padding: 10px 30px;
+    border-radius: 100px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .hero {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 90vh;
+    }
+
+    .hero__contenedor__logo {
+        width: 80px;
+    }
+
+    .hero__contenedor__titulo {
+        font-size: 62px;
+        margin-top: 40px;
+    }
+
+    .hero__contenedor__subtitulo {
+        font-size: 24px;
+        font-weight: 400;
+        margin-top: -40px;
+        margin-bottom: 30px;
+    }
+
+    .hero__contenedor__btn {
+        background-color: $verde-oscuro;
+        padding: 12px 35px;
+        border-radius: 100px;
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+}
