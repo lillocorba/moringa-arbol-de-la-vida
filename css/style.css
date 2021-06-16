@@ -253,7 +253,7 @@ header nav {
     margin: 0px; } }
 
 .beneficios {
-  padding: 50px 20px 50px 20px;
+  padding: 100px 20px 100px 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -461,13 +461,16 @@ header nav {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 50px 25px 50px 25px; }
+  padding: 100px 25px 100px 25px; }
 
 .superalimento__frase--moringa {
   -webkit-text-stroke: 1px #52BE80;
   color: transparent;
   font-size: 28px;
   margin-bottom: 0px; }
+
+.superalimento__frase--moringa h2 {
+  margin-top: 0px; }
 
 .superalimento__frase--igual, .superalimento__frase--superalimento {
   font-size: 28px;
