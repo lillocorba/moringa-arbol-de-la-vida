@@ -40,6 +40,7 @@ html, body {
   text-decoration: none;
   font-size: 16px; }
 
+/* IPAD */
 @media (min-width: 768px) and (max-width: 991.98px) {
   .hero {
     display: flex;
@@ -47,6 +48,32 @@ html, body {
     align-items: center;
     text-align: center;
     height: 90vh; }
+  .hero__contenedor__logo {
+    width: 80px; }
+  .hero__contenedor__titulo {
+    font-size: 62px;
+    margin-top: 40px; }
+  .hero__contenedor__subtitulo {
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: -40px;
+    margin-bottom: 30px; }
+  .hero__contenedor__btn {
+    background-color: #52BE80;
+    padding: 12px 35px;
+    border-radius: 100px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px; } }
+
+/* COMPUTADORA CHICA */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh; }
   .hero__contenedor__logo {
     width: 80px; }
   .hero__contenedor__titulo {
@@ -159,6 +186,7 @@ header nav {
   margin-top: 30px;
   margin-bottom: -200px; }
 
+/* IPAD */
 @media (min-width: 768px) and (max-width: 991.98px) {
   .about__h2 {
     font-weight: bold;
@@ -180,6 +208,29 @@ header nav {
     margin-top: 30px;
     margin-bottom: -300px;
     width: 85vw; } }
+
+/* COMPUTADORA CHICA */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .about__h2 {
+    font-weight: bold;
+    font-size: 36px; }
+  .about__p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 2;
+    margin: 0px 70px 50px 70px; }
+  .about__btn {
+    background-color: white;
+    padding: 12px 35px;
+    border-radius: 100px;
+    color: #52BE80;
+    text-decoration: none;
+    font-size: 18px; }
+  .about__img {
+    z-index: -1;
+    margin-top: 30px;
+    margin-bottom: -450px;
+    width: 90vw; } }
 
 .beneficios {
   padding: 50px 20px 50px 20px;
@@ -269,6 +320,29 @@ header nav {
   .beneficios__cards__card__titulo h3 {
     font-size: 20px; } }
 
+/* COMPUTADORA CHICA */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .beneficios {
+    padding: 100px 20px 100px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; }
+  .beneficios__titulo h2 {
+    color: black;
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 50px; }
+  .beneficios__cards__leftArrow {
+    width: 40px;
+    margin-right: 5px; }
+  .beneficios__cards__rightArrow {
+    width: 40px;
+    margin-left: 5px; }
+  .beneficios__cards__card__titulo h3 {
+    font-size: 22px; } }
+
 .consumo {
   background-color: #52BE80;
   background-image: url("../imagenes/img-bg.png");
@@ -323,6 +397,32 @@ header nav {
   .consumo__capsulas, .consumo__aceite, .consumo__hojas {
     margin-right: 50px; } }
 
+/* COMPUTADORA CHICA */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .consumo__titulo h2 {
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 30px; }
+  .consumo__contenedor {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: 0px; }
+  .consumo__capsulas img, .consumo__aceite img, .consumo__hojas img, .consumo__polvo img {
+    width: 75px;
+    margin-bottom: 20px; }
+  .consumo__capsulas h4, .consumo__aceite h4, .consumo__hojas h4, .consumo__polvo h4 {
+    font-size: 20px;
+    margin-top: 5px; }
+  .consumo__capsulas, .consumo__aceite, .consumo__hojas, .consumo__polvo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .consumo__capsulas, .consumo__aceite, .consumo__hojas {
+    margin-right: 75px; } }
+
 .superalimento {
   display: flex;
   flex-direction: column;
@@ -345,6 +445,39 @@ header nav {
 .superalimento__vitaminas {
   color: #52BE80; }
 
+/* IPAD */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .superalimento__vitaminas {
+    margin: 0px 10%; }
+  .superalimento {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 100px 25px 100px 25px; }
+  .superalimento__frase--moringa h2 {
+    margin: 0px; } }
+
+/* COMPUTADORA CHICA */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .superalimento__vitaminas {
+    margin: 0px 10%; }
+  .superalimento {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 100px 25px 100px 25px; }
+  .superalimento__frase--moringa h2 {
+    margin: 0px;
+    font-size: 64px; }
+  .superalimento__frase--igual h2, .superalimento__frase--superalimento h2 {
+    font-size: 64px; }
+  .superalimento__vitaminas {
+    font-size: 18px; } }
+
 .desarrollo {
   display: flex;
   flex-direction: row;
@@ -354,7 +487,7 @@ header nav {
   padding: 30px 20px;
   text-align: center;
   color: white;
-  font-size: 14px;
+  font-size: 16px;
   text-decoration: none;
   font-weight: 300; }
 

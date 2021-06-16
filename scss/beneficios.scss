@@ -108,3 +108,39 @@
     }
 
 }
+
+/* COMPUTADORA CHICA */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    .beneficios {
+        padding: 100px 20px 100px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .beneficios__titulo h2 {
+        color: black;
+        font-weight: bold;
+        font-size: 36px;
+        margin-bottom: 50px;
+    }
+
+    .beneficios__cards__leftArrow {
+        width: 40px;
+        margin-right: 5px;
+    }
+    
+    .beneficios__cards__rightArrow {
+        width: 40px;
+        margin-left: 5px;
+    }
+
+    .beneficios__cards__card__titulo h3 {
+        font-size: 22px;
+    }
+
+}

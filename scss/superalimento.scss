@@ -25,3 +25,58 @@
 .superalimento__vitaminas {
     color: $verde-oscuro;
 }
+
+/* IPAD */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .superalimento__vitaminas {
+        margin: 0px 10%;
+    }
+
+    .superalimento {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 100px 25px 100px 25px;
+    }
+
+    .superalimento__frase--moringa h2 {
+        margin: 0px;
+    }
+
+}
+
+/* COMPUTADORA CHICA */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    .superalimento__vitaminas {
+        margin: 0px 10%;
+    }
+
+    .superalimento {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 100px 25px 100px 25px;
+    }
+
+    .superalimento__frase--moringa h2 {
+        margin: 0px;
+        font-size: 64px;
+    }
+
+    .superalimento__frase--igual h2, .superalimento__frase--superalimento h2 {
+        font-size: 64px;
+    }
+
+    .superalimento__vitaminas {
+        font-size: 18px;
+    }
+
+}
