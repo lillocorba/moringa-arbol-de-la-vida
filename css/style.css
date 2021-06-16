@@ -165,7 +165,7 @@ header nav {
 
 .about__h2 {
   font-weight: bold;
-  font-size: 24px; }
+  font-size: 28px; }
 
 .about__p {
   font-weight: 400;
@@ -263,7 +263,7 @@ header nav {
 .beneficios__titulo h2 {
   color: black;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 28px;
   margin-bottom: 50px; }
 
 .beneficios__cards__leftArrow {
@@ -392,7 +392,7 @@ header nav {
 
 .consumo__titulo h2 {
   font-weight: bold;
-  font-size: 24px; }
+  font-size: 28px; }
 
 .consumo__capsulas, .consumo__aceite, .consumo__hojas, .consumo__polvo {
   margin-top: 50px; }
