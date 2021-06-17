@@ -151,6 +151,9 @@ header nav {
   text-align: center;
   transition: all 1s ease-in; }
 
+.contenedor__menu__ul a {
+  text-decoration: none; }
+
 .contenedor__menu__ul-active {
   opacity: 1;
   transform: translate(0%); }

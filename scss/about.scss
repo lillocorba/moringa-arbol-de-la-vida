@@ -46,7 +46,6 @@
 /* IPAD */
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-
     .about__h2 {
         font-weight: bold;
         font-size: 32px;
@@ -74,27 +73,25 @@
         margin-bottom: -300px;
         width: 85vw;
     }
-
 }
 
 /* COMPUTADORA CHICA */
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
-
     .about {
-    background-color: $verde-oscuro;
-    background-image: url("../imagenes/img-bg.png");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 100px 20px 100px 20px;
-    color: white;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    overflow: hidden;
+        background-color: $verde-oscuro;
+        background-image: url("../imagenes/img-bg.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 100px 20px 100px 20px;
+        color: white;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        overflow: hidden;
     }
 
     .about__contenedor__textos {
@@ -139,21 +136,20 @@
 /* COMPUTADORA GRANDE */
 
 @media (min-width: 1200px) {
-
     .about {
-    background-color: $verde-oscuro;
-    background-image: url("../imagenes/img-bg.png");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 100px 200px 100px 200px;
-    color: white;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    overflow: hidden;
+        background-color: $verde-oscuro;
+        background-image: url("../imagenes/img-bg.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 100px 200px 100px 200px;
+        color: white;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        overflow: hidden;
     }
 
     .about__contenedor__textos {
@@ -196,5 +192,4 @@
         height: auto;
         margin: 0px 100px 0px 0px;
     }
-
 }
