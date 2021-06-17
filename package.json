@@ -18,9 +18,9 @@
     "url": "https://github.com/lillocorba/moringa-arbol-de-la-vida/issues"
   },
   "homepage": "https://github.com/lillocorba/moringa-arbol-de-la-vida#readme",
-  "description": "",
   "devDependencies": {
     "node-sass": "^6.0.0",
     "nodemon": "^2.0.7"
-  }
+  },
+  "description": ""
 }

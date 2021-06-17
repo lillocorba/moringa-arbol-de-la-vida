@@ -404,7 +404,7 @@ header nav {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 100px 200px 100px 200px;
+    padding: 100px 50px 100px 50px;
     color: white;
     display: flex;
     flex-direction: row;
@@ -414,7 +414,7 @@ header nav {
     overflow: hidden; }
   .about__contenedor__textos {
     text-align: left;
-    padding: 0px 100px 0px 70px; }
+    padding: 0px 100px 0px 100px; }
   .about__h2 {
     font-weight: bold;
     font-size: 48px;
@@ -440,7 +440,7 @@ header nav {
     z-index: 1;
     width: 500px;
     height: auto;
-    margin: 0px 100px 0px 0px; } }
+    margin: 0px 50px 0px 0px; } }
 
 .beneficios {
   padding: 100px 20px 100px 20px;
