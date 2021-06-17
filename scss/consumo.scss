@@ -60,9 +60,17 @@
     .consumo__contenedor {
         display: flex;
         flex-direction: row;
-        align-items: flex-end;
-        justify-content: center;
-        margin-top: 0px;
+    }
+
+    .consumo__contenedor__1 {
+        margin-right: 30px;
+    }
+
+    .consumo__contenedor__2 {
+        margin-left: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
 
     .consumo__capsulas img, .consumo__aceite img, .consumo__hojas img, .consumo__polvo img {
@@ -80,10 +88,6 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    }
-
-    .consumo__capsulas, .consumo__aceite, .consumo__hojas {
-        margin-right: 50px;
     }
     
 }
@@ -101,9 +105,17 @@
     .consumo__contenedor {
         display: flex;
         flex-direction: row;
-        align-items: flex-end;
-        justify-content: center;
-        margin-top: 0px;
+    }
+
+    .consumo__contenedor__1 {
+        margin-right: 50px;
+    }
+
+    .consumo__contenedor__2 {
+        margin-left: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
 
     .consumo__capsulas img, .consumo__aceite img, .consumo__hojas img, .consumo__polvo img {
@@ -122,9 +134,55 @@
         justify-content: center;
         align-items: center;
     }
+    
+}
+
+/* COMPUTADORA GRANDE */
+
+@media (min-width: 1200px) {
+
+    .consumo__titulo h2 {
+        font-weight: bold;
+        font-size: 36px;
+        margin-bottom: 50px;
+    }
+
+    .consumo__contenedor {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .consumo__contenedor__1 {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .consumo__contenedor__2 {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .consumo__capsulas img, .consumo__aceite img, .consumo__hojas img, .consumo__polvo img {
+        width: 75px;
+    }
+
+    .consumo__capsulas h4, .consumo__aceite h4, .consumo__hojas h4, .consumo__polvo h4 {
+        font-size: 20px;
+        margin-top: 5px;
+    }
 
     .consumo__capsulas, .consumo__aceite, .consumo__hojas {
-        margin-right: 75px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 100px 0px 0px;
     }
     
 }

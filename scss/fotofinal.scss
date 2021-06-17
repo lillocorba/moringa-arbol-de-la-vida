@@ -5,3 +5,13 @@
     background-size: cover;
     padding: 100px;
 }
+
+/* COMPUTADORA GRANDE */
+
+@media (min-width: 1200px) {
+
+    .foto__final {
+    padding: 200px;
+}
+
+}

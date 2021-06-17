@@ -93,6 +93,32 @@ html, body {
     text-decoration: none;
     font-size: 18px; } }
 
+/* COMPUTADORA GRANDE */
+@media (min-width: 1200px) {
+  .hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh; }
+  .hero__contenedor__logo {
+    width: 80px; }
+  .hero__contenedor__titulo {
+    font-size: 62px;
+    margin-top: 40px; }
+  .hero__contenedor__subtitulo {
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: -40px;
+    margin-bottom: 50px; }
+  .hero__contenedor__btn {
+    background-color: #52BE80;
+    padding: 12px 35px;
+    border-radius: 100px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px; } }
+
 header nav {
   display: flex;
   flex-direction: row;
@@ -253,6 +279,52 @@ header nav {
     height: auto;
     margin: 0px; } }
 
+/* COMPUTADORA GRANDE */
+@media (min-width: 1200px) {
+  .about {
+    background-color: #52BE80;
+    background-image: url("../imagenes/img-bg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 200px 100px 200px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden; }
+  .about__contenedor__textos {
+    text-align: left;
+    padding: 0px 100px 0px 70px; }
+  .about__h2 {
+    font-weight: bold;
+    font-size: 48px;
+    margin-top: 0px; }
+  .about__p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 2;
+    margin: 0px 0px 50px 0px; }
+  .about__btn {
+    background-color: white;
+    padding: 12px 35px;
+    border-radius: 100px;
+    color: #52BE80;
+    text-decoration: none;
+    font-size: 18px; }
+  .about__contenedor__imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0; }
+  .about__img {
+    z-index: 1;
+    width: 500px;
+    height: auto;
+    margin: 0px 100px 0px 0px; } }
+
 .beneficios {
   padding: 100px 20px 100px 20px;
   display: flex;
@@ -364,6 +436,29 @@ header nav {
   .beneficios__cards__card__titulo h3 {
     font-size: 22px; } }
 
+/* COMPUTADORA GRANDE */
+@media (min-width: 1200px) {
+  .beneficios {
+    padding: 100px 20px 100px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; }
+  .beneficios__titulo h2 {
+    color: black;
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 50px; }
+  .beneficios__cards__leftArrow {
+    width: 40px;
+    margin-right: 5px; }
+  .beneficios__cards__rightArrow {
+    width: 40px;
+    margin-left: 5px; }
+  .beneficios__cards__card__titulo h3 {
+    font-size: 24px; } }
+
 .consumo {
   background-color: #52BE80;
   background-image: url("../imagenes/img-bg.png");
@@ -412,10 +507,14 @@ header nav {
     margin-bottom: 30px; }
   .consumo__contenedor {
     display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    justify-content: center;
-    margin-top: 0px; }
+    flex-direction: row; }
+  .consumo__contenedor__1 {
+    margin-right: 30px; }
+  .consumo__contenedor__2 {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
   .consumo__capsulas img, .consumo__aceite img, .consumo__hojas img, .consumo__polvo img {
     width: 75px;
     margin-bottom: 20px; }
@@ -426,9 +525,7 @@ header nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; }
-  .consumo__capsulas, .consumo__aceite, .consumo__hojas {
-    margin-right: 50px; } }
+    align-items: center; } }
 
 /* COMPUTADORA CHICA */
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -438,10 +535,14 @@ header nav {
     margin-bottom: 30px; }
   .consumo__contenedor {
     display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    justify-content: center;
-    margin-top: 0px; }
+    flex-direction: row; }
+  .consumo__contenedor__1 {
+    margin-right: 50px; }
+  .consumo__contenedor__2 {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
   .consumo__capsulas img, .consumo__aceite img, .consumo__hojas img, .consumo__polvo img {
     width: 75px;
     margin-bottom: 20px; }
@@ -452,9 +553,40 @@ header nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; }
+    align-items: center; } }
+
+/* COMPUTADORA GRANDE */
+@media (min-width: 1200px) {
+  .consumo__titulo h2 {
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 50px; }
+  .consumo__contenedor {
+    display: flex;
+    flex-direction: row; }
+  .consumo__contenedor__1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    margin: 0; }
+  .consumo__contenedor__2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    margin: 0; }
+  .consumo__capsulas img, .consumo__aceite img, .consumo__hojas img, .consumo__polvo img {
+    width: 75px; }
+  .consumo__capsulas h4, .consumo__aceite h4, .consumo__hojas h4, .consumo__polvo h4 {
+    font-size: 20px;
+    margin-top: 5px; }
   .consumo__capsulas, .consumo__aceite, .consumo__hojas {
-    margin-right: 75px; } }
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 100px 0px 0px; } }
 
 .superalimento {
   display: flex;
@@ -514,6 +646,26 @@ header nav {
   .superalimento__vitaminas {
     font-size: 18px; } }
 
+/* COMPUTADORA GRANDE */
+@media (min-width: 1200px) {
+  .superalimento__vitaminas {
+    margin: 0px 10%; }
+  .superalimento {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 100px 25px 100px 25px; }
+  .superalimento__frase--moringa h2 {
+    margin: 0px;
+    font-size: 64px; }
+  .superalimento__frase--igual h2, .superalimento__frase--superalimento h2 {
+    font-size: 64px; }
+  .superalimento__vitaminas {
+    font-size: 18px;
+    word-spacing: 5px; } }
+
 .desarrollo {
   display: flex;
   flex-direction: row;
@@ -538,3 +690,8 @@ header nav {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 100px; }
+
+/* COMPUTADORA GRANDE */
+@media (min-width: 1200px) {
+  .foto__final {
+    padding: 200px; } }

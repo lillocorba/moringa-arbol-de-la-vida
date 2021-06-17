@@ -135,3 +135,66 @@
         margin: 0px;
     }
 }
+
+/* COMPUTADORA GRANDE */
+
+@media (min-width: 1200px) {
+
+    .about {
+    background-color: $verde-oscuro;
+    background-image: url("../imagenes/img-bg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 200px 100px 200px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    }
+
+    .about__contenedor__textos {
+        text-align: left;
+        padding: 0px 100px 0px 70px;
+    }
+
+    .about__h2 {
+        font-weight: bold;
+        font-size: 48px;
+        margin-top: 0px;
+    }
+
+    .about__p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 2;
+        margin: 0px 0px 50px 0px;
+    }
+
+    .about__btn {
+        background-color: white;
+        padding: 12px 35px;
+        border-radius: 100px;
+        color: $verde-oscuro;
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+    .about__contenedor__imagen {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    .about__img {
+        z-index: 1;
+        width: 500px;
+        height: auto;
+        margin: 0px 100px 0px 0px;
+    }
+
+}
