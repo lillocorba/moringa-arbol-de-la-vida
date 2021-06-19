@@ -724,7 +724,7 @@ header nav {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 100px 25px 100px 25px; }
+  padding: 0px 25px 100px 25px; }
 
 .superalimento__frase--moringa {
   -webkit-text-stroke: 1px #52BE80;
@@ -735,13 +735,17 @@ header nav {
 .superalimento__frase--moringa h2 {
   margin-top: 0px; }
 
-.superalimento__frase--igual, .superalimento__frase--superalimento {
+.superalimento__frase--igual,
+.superalimento__frase--superalimento {
   font-size: 28px;
   color: #52BE80;
   margin-top: -40px; }
 
 .superalimento__vitaminas {
   color: #52BE80; }
+
+.contenedor__video {
+  margin-bottom: 100px; }
 
 /* IPAD */
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -771,7 +775,8 @@ header nav {
   .superalimento__frase--moringa h2 {
     margin: 0px;
     font-size: 64px; }
-  .superalimento__frase--igual h2, .superalimento__frase--superalimento h2 {
+  .superalimento__frase--igual h2,
+  .superalimento__frase--superalimento h2 {
     font-size: 64px; }
   .superalimento__vitaminas {
     font-size: 18px; } }
@@ -790,7 +795,8 @@ header nav {
   .superalimento__frase--moringa h2 {
     margin: 0px;
     font-size: 64px; }
-  .superalimento__frase--igual h2, .superalimento__frase--superalimento h2 {
+  .superalimento__frase--igual h2,
+  .superalimento__frase--superalimento h2 {
     font-size: 64px; }
   .superalimento__vitaminas {
     font-size: 18px;

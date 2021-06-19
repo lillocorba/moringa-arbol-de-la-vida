@@ -6,7 +6,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 100px 25px 100px 25px;
+    padding: 0px 25px 100px 25px;
 }
 
 .superalimento__frase--moringa {
@@ -17,10 +17,11 @@
 }
 
 .superalimento__frase--moringa h2 {
-    margin-top: 0px
+    margin-top: 0px;
 }
 
-.superalimento__frase--igual, .superalimento__frase--superalimento {
+.superalimento__frase--igual,
+.superalimento__frase--superalimento {
     font-size: 28px;
     color: $verde-oscuro;
     margin-top: -40px;
@@ -30,10 +31,13 @@
     color: $verde-oscuro;
 }
 
+.contenedor__video {
+    margin-bottom: 100px;
+}
+
 /* IPAD */
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-
     .superalimento__vitaminas {
         margin: 0px 10%;
     }
@@ -50,13 +54,11 @@
     .superalimento__frase--moringa h2 {
         margin: 0px;
     }
-
 }
 
 /* COMPUTADORA CHICA */
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
-
     .superalimento__vitaminas {
         margin: 0px 10%;
     }
@@ -75,20 +77,19 @@
         font-size: 64px;
     }
 
-    .superalimento__frase--igual h2, .superalimento__frase--superalimento h2 {
+    .superalimento__frase--igual h2,
+    .superalimento__frase--superalimento h2 {
         font-size: 64px;
     }
 
     .superalimento__vitaminas {
         font-size: 18px;
     }
-
 }
 
 /* COMPUTADORA GRANDE */
 
 @media (min-width: 1200px) {
-
     .superalimento__vitaminas {
         margin: 0px 10%;
     }
@@ -107,7 +108,8 @@
         font-size: 64px;
     }
 
-    .superalimento__frase--igual h2, .superalimento__frase--superalimento h2 {
+    .superalimento__frase--igual h2,
+    .superalimento__frase--superalimento h2 {
         font-size: 64px;
     }
 
@@ -115,5 +117,4 @@
         font-size: 18px;
         word-spacing: 5px;
     }
-
 }
