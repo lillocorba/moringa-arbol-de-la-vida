@@ -479,8 +479,7 @@ header nav {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
-  transform: translate(900px); }
+  align-items: center; }
 
 .beneficios__cards__card {
   display: flex;

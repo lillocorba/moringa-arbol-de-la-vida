@@ -43,7 +43,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    transform: translate(900px);
+    // transform: translate(900px);
 }
 
 .beneficios__cards__card {
@@ -81,7 +81,6 @@
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-
     .beneficios {
         padding: 100px 20px 100px 20px;
         display: flex;
@@ -107,7 +106,7 @@
         width: 40px;
         margin-right: 5px;
     }
-    
+
     .beneficios__cards__rightArrow {
         width: 40px;
         margin-left: 5px;
@@ -116,13 +115,11 @@
     .beneficios__cards__card__titulo h3 {
         font-size: 20px;
     }
-
 }
 
 /* COMPUTADORA CHICA */
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
-
     .beneficios {
         padding: 100px 20px 100px 20px;
         display: flex;
@@ -148,7 +145,7 @@
         width: 40px;
         margin-right: 5px;
     }
-    
+
     .beneficios__cards__rightArrow {
         width: 40px;
         margin-left: 5px;
@@ -157,13 +154,11 @@
     .beneficios__cards__card__titulo h3 {
         font-size: 22px;
     }
-
 }
 
 /* COMPUTADORA GRANDE */
 
 @media (min-width: 1200px) {
-
     .beneficios {
         padding: 100px 20px 100px 20px;
         display: flex;
@@ -189,7 +184,7 @@
         width: 40px;
         margin-right: 5px;
     }
-    
+
     .beneficios__cards__rightArrow {
         width: 40px;
         margin-left: 5px;
@@ -198,5 +193,4 @@
     .beneficios__cards__card__titulo h3 {
         font-size: 24px;
     }
-
 }

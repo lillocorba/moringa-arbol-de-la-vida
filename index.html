@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Moringa - El arbol de la vida</title>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -81,7 +82,7 @@
             <p>Te mostramos algunos de los muchos beneficios que tiene la
                 Moringa.</p>
         </div>
-        <div class="beneficios__cards">
+        <div class="beneficios__cards beneficios__carrousel">
             <div class="beneficios__cards__card">
                 <div class="beneficios__cards__card__titulo">
                     <h3>Antialérgico</h3>
@@ -135,15 +136,15 @@
                 <div class="beneficios__cards__card__parrafo">
                     <p>Ejerce un efecto protector y desintoxicante sobre el riñón, por cuanto contribuye a atenuar el
                         daño generado por agentes
-                        tóxicos, como es el caso de algunos medicamentos y metales pesados.</p>
+                        tóxicos.</p>
                 </div>
             </div>
         </div>
         <div class="beneficios__arrows">
-            <div>
+            <div class="contenedor-left-arrow">
                 <img src="imagenes/left-arrow.png" alt="" class="beneficios__cards__leftArrow">
             </div>
-            <div class="beneficios__cards__rightArrow">
+            <div class="beneficios__cards__right contenedor-right-arrow">
                 <img src="imagenes/right-arrow.png" alt="" class="beneficios__cards__rightArrow">
             </div>
         </div>
@@ -209,11 +210,16 @@
     </section>
 
     <!-- Javascript -->
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
     </script>
     <script src="./js/app.js"></script>
+    <script src="./js/beneficios.js"></script>
 </body>
 
 </html>
