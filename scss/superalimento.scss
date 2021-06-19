@@ -4,9 +4,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     text-align: center;
-    padding: 0px 25px 100px 25px;
+    padding: 100px 25px 100px 25px;
 }
 
 .superalimento__frase--moringa {
@@ -31,8 +30,44 @@
     color: $verde-oscuro;
 }
 
-.contenedor__video {
-    margin-bottom: 100px;
+.contenedor__videos {
+    margin-bottom: 50px;
+}
+
+.contenedor__videos__h2 {
+    color: black;
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: 50px;
+}
+
+.contenedor__videos__video1 {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+    margin-bottom: 20px;
+}
+
+.video1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.contenedor__videos__video2 {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+
+.video2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
 }
 
 /* IPAD */
