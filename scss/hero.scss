@@ -10,6 +10,7 @@
 
 .hero__contenedor {
     margin-top: -50px;
+    z-index: -1;
 }
 
 .hero__contenedor__logo {
@@ -40,7 +41,6 @@
 /* IPAD */
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-
     .hero {
         display: flex;
         justify-content: center;
@@ -73,7 +73,6 @@
         text-decoration: none;
         font-size: 18px;
     }
-
 }
 
 /* COMPUTADORA CHICA */
@@ -116,8 +115,7 @@
 /* COMPUTADORA GRANDE */
 
 @media (min-width: 1200px) {
-
-        .hero {
+    .hero {
         display: flex;
         justify-content: center;
         align-items: center;

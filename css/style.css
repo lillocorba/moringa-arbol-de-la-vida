@@ -18,7 +18,8 @@ html, body {
   height: 100vh; }
 
 .hero__contenedor {
-  margin-top: -50px; }
+  margin-top: -50px;
+  z-index: -1; }
 
 .hero__contenedor__logo {
   width: 60px;
