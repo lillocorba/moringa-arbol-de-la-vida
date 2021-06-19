@@ -744,7 +744,7 @@ header nav {
   color: #52BE80; }
 
 .contenedor__videos {
-  margin-bottom: 50px; }
+  margin-bottom: 100px; }
 
 .contenedor__videos__h2 {
   color: black;
@@ -768,9 +768,22 @@ header nav {
 .contenedor__videos__video2 {
   position: relative;
   overflow: hidden;
-  padding-top: 56.25%; }
+  padding-top: 56.25%;
+  margin-bottom: 20px; }
 
 .video2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%; }
+
+.contenedor__videos__video3 {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%; }
+
+.video3 {
   position: absolute;
   top: 0;
   left: 0;
@@ -789,7 +802,52 @@ header nav {
     text-align: center;
     padding: 100px 25px 100px 25px; }
   .superalimento__frase--moringa h2 {
-    margin: 0px; } }
+    margin: 0px; }
+  .contenedor__videos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80vw;
+    margin-bottom: 50px; }
+  .contenedor__videos {
+    margin-bottom: 100px; }
+  .contenedor__videos__h2 {
+    color: black;
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: 50px; }
+  .contenedor__videos__video1 {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+    margin-bottom: 20px; }
+  .video1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%; }
+  .contenedor__videos__video2 {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+    margin-bottom: 20px; }
+  .video2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%; }
+  .contenedor__videos__video3 {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%; }
+  .video3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%; } }
 
 /* COMPUTADORA CHICA */
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -809,7 +867,54 @@ header nav {
   .superalimento__frase--superalimento h2 {
     font-size: 64px; }
   .superalimento__vitaminas {
-    font-size: 18px; } }
+    font-size: 18px; }
+  .contenedor__videos {
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+    margin-bottom: 50px; }
+  .contenedor__videos__h2 {
+    color: black;
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: 50px; }
+  .contenedor__videos__video1 {
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    padding-top: 250px;
+    margin-right: 10px; }
+  .video1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 230px;
+    width: 400px; }
+  .contenedor__videos__video2 {
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    padding-top: 250px;
+    margin-right: 10px;
+    margin-left: 10px; }
+  .video2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 230px;
+    width: 400px; }
+  .contenedor__videos__video3 {
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    padding-top: 250px;
+    margin-left: 10px; }
+  .video3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 230px;
+    width: 400px; } }
 
 /* COMPUTADORA GRANDE */
 @media (min-width: 1200px) {
@@ -830,7 +935,53 @@ header nav {
     font-size: 64px; }
   .superalimento__vitaminas {
     font-size: 18px;
-    word-spacing: 5px; } }
+    word-spacing: 5px; }
+  .contenedor__videos {
+    display: flex;
+    width: 90vw;
+    margin-bottom: 50px; }
+  .contenedor__videos__h2 {
+    color: black;
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: 50px; }
+  .contenedor__videos__video1 {
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    padding-top: 300px;
+    margin-right: 10px; }
+  .video1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 280px;
+    width: 500px; }
+  .contenedor__videos__video2 {
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    padding-top: 300px;
+    margin-right: 10px;
+    margin-left: 10px; }
+  .video2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 280px;
+    width: 500px; }
+  .contenedor__videos__video3 {
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    padding-top: 300px;
+    margin-left: 10px; }
+  .video3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 280px;
+    width: 500px; } }
 
 .desarrollo {
   display: flex;
