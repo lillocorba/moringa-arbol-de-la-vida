@@ -2,13 +2,15 @@
 * {
   box-sizing: border-box; }
 
-html, body {
-  font-family: 'Poppins', sans-serif;
+html,
+body {
+  font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
   overflow-x: hidden;
   position: relative;
-  scroll-behavior: smooth; }
+  scroll-behavior: smooth;
+  background-color: red; }
 
 .hero {
   display: flex;
