@@ -292,7 +292,9 @@ header nav {
     top: 0;
     right: 0;
     transform: translate(-60px, 55px);
-    cursor: pointer; } }
+    cursor: pointer; }
+  .link-menu {
+    font-size: 48px; } }
 
 .about {
   background-color: #52BE80;
