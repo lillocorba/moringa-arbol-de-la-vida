@@ -20,7 +20,7 @@ body {
 
 .hero__contenedor {
   margin-top: -50px;
-  z-index: -1; }
+  z-index: 1; }
 
 .hero__contenedor__logo {
   width: 60px;
@@ -41,7 +41,8 @@ body {
   border-radius: 100px;
   color: white;
   text-decoration: none;
-  font-size: 16px; }
+  font-size: 16px;
+  cursor: pointer; }
 
 /* IPAD */
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -67,7 +68,8 @@ body {
     border-radius: 100px;
     color: white;
     text-decoration: none;
-    font-size: 18px; } }
+    font-size: 18px;
+    cursor: pointer; } }
 
 /* COMPUTADORA CHICA */
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -93,7 +95,8 @@ body {
     border-radius: 100px;
     color: white;
     text-decoration: none;
-    font-size: 18px; } }
+    font-size: 18px;
+    cursor: pointer; } }
 
 /* COMPUTADORA GRANDE */
 @media (min-width: 1200px) {
@@ -119,7 +122,8 @@ body {
     border-radius: 100px;
     color: white;
     text-decoration: none;
-    font-size: 18px; } }
+    font-size: 18px;
+    cursor: pointer; } }
 
 header nav {
   display: flex;
@@ -128,7 +132,8 @@ header nav {
   justify-content: space-between;
   padding: 20px 30px 20px 30px;
   position: relative;
-  margin-bottom: -10vh; }
+  margin-bottom: -10vh;
+  z-index: 100; }
 
 .contenedor__menu__ul {
   margin: 0;
